@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/toolbar_height_extended"
         android:gravity="bottom"
-        android:elevation="@dimen/app_bar_elevation">
+        app:elevation="@dimen/app_bar_elevation">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"

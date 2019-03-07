@@ -68,8 +68,8 @@
                         tools:text="The Legend of Sleepy Hollow"/>
 
                     <TextView
-                        android:id="@+id/article_byline"
                         style="?android:attr/textAppearanceSmall"
+                        android:id="@+id/article_byline"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textColor="#8fff"
@@ -97,13 +97,13 @@
     </com.example.xyzreader.ui.ObservableScrollView>
 
     <android.support.design.widget.FloatingActionButton
+        style="@style/Widget.XYZReader.FloatingActionButton"
         android:id="@+id/share_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         android:contentDescription="@string/action_share"
-        app:srcCompat="@drawable/ic_share_white_24dp"
-        app:rippleColor="@android:color/white"/>
+        app:srcCompat="@drawable/ic_share_white_24dp" />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
